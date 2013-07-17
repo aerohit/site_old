@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- syntax highlighting CSS -->
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Custom CSS -->
 
-    </head>
-    <body>
+    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css" media="screen">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+    <div class="wrapper">
+      <header>
+      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
 
-                {{ content }}
+      <!-- <h3>The Goods</h3> -->
+      <p class="view"><a href="/projects">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
+      <p class="view"><a href="/speaking">Talks I've Given<small>On Technologies and Ideas</small></a></p>
+      <p class="view"><a href="/posts">Thoughts<small>Where I Sometimes Write Things</small></a></p>
+      <p class="view"><a href="/resume">Resume <small>If You Still Believe In Those</small></a></p>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
+
+
+      <h3>Follow Me On</h3>
+      <p class="view"><a href="https://github.com/technicalpickles" target="tab">GitHub<small>If coding is your thing</small></a></li>
+      <p class="view"><a href="https://twitter.com/techpickles" target="tab">Twitter<small>If you tweet</small></a></li>
+      <p class="view"><a href="http://technicalpicklejar.tumblr.com" target="tab">Tumblr<small>If you're ADD</small></a></li>
+
+      </header>
+      <section id="main">
+
+      {{ content }}
+
+      </section>
+      <footer>
+      <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+	try {
+	  var pageTracker = _gat._getTracker("UA-1620236-1");
+	  pageTracker._trackPageview();
+	} catch(err) {}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+      <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
 
     </body>
-</html>
+  </html>
