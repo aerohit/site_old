@@ -4,6 +4,7 @@ title: Projects
 ---
 
 # Projects
+----------
 
 ## Open Source Projects
 
