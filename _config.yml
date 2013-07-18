@@ -1,3 +1,4 @@
 name: rohit saxena
 markdown: redcarpet
 pygments: true
+permalink: /scribbles/:title
