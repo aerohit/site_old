@@ -36,4 +36,5 @@ title: Projects
 
 ## About this Website
 
-The website is developed using the [Jekyll](http://jekyllrb.com) static site generator.
+The website developed using the [Jekyll](http://jekyllrb.com) static site generator.
+It is hosted on [GitHub Pages](http://pages.github.com) and the theme is by [orderedlist](https://github.com/orderedlist).
