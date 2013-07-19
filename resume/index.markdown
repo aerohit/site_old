@@ -2,6 +2,7 @@
 layout: default
 title: Resume
 ---
+
 # The technical details
 -----------------
 
@@ -43,7 +44,7 @@ here includes:
   whenever the corresponding server is up.
 
 - Transaction framework for executing transactional database operations. SimpleDb is not a relational
-  database and it doesn`t provide complex transactions and relations. Hence this framework was
+  database and it doesn't provide complex transactions and relations. Hence this framework was
   developed to provide support for complex operations.
 
 - An id-generator to generate unique string-ids for data to be persisted on *Amazon SimpleDb*. 
@@ -90,7 +91,7 @@ create and host their products. My work here included:
 **[ThoughtWorks](http://www.thoughtworks.com)** is famous as one of the pioneers of Agile
 software development.
 
-- Worked on a project to setup an internal cloud for ThoughtWorks using [OpenStack`s](http://openstack.com) 
+- Worked on a project to setup an internal cloud for ThoughtWorks using [OpenStack's](http://openstack.com) 
   cloud controller to create Virtual Machines on the fly for their development teams. My task
   included deploying it on a yet untested distro (CentOS), submitting bug fixes, writing bash
   scripts for automatic deployments of missing dependencies etc.

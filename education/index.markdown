@@ -2,14 +2,15 @@
 layout: default
 title: Education
 ---
+
 # Education
 -----------
 
 I graduated from **Indian Institute of Technology Kanpur** in 2010 with a B.Tech-M.Tech dual degree in Aerospace 
-Engineering, with specialization in parallel numerical algorithms. My master`s thesis was
+Engineering, with specialization in parallel numerical algorithms. My master's thesis was
 titled *["Parallel Computation of 3-D Flow in a Mixed Compression Air-Intake"](downloads/thesis_rohit_saxena.pdf)*.
 
-## Master`s thesis
+## Master's thesis
 ##### Dec 2008 - Jul 2010
 #### Parallel Computation of 3-D Flow in a Mixed Compression Air-Intake.
 
@@ -37,7 +38,7 @@ A copy of the thesis could be downloaded from [here](downloads/thesis_rohit_saxe
 I was also a **research assistant** for a couple of months in the CFD lab, during which I continued
 work on the masters thesis.
 
-- Scaled and did speed-up studies for the parallel application developed in my Master`s thesis.
+- Scaled and did speed-up studies for the parallel application developed in my Master's thesis.
 - Tweaked the application to adaptively determine the most optimal use of resources, memory
 and processors, and allocate them dynamically based on speed-up analysis.
 

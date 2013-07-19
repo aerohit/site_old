@@ -11,7 +11,7 @@ title: Projects
 ### SimpleDBFluentQueries
 
   - [SimpleDBFluentQueries](https://github.com/aerohit/SimpleDBFluentQueries) is a fluent Java
-    API for generating Amazon SimpleDB search queries. The library is inspired from Hibernate`s 
+    API for generating Amazon SimpleDB search queries. The library is inspired from Hibernate's 
     criteria api.
 
 
@@ -36,5 +36,5 @@ title: Projects
 
 ## About this Website
 
-The website developed using the [Jekyll](http://jekyllrb.com) static site generator.
+The website is developed using the [Jekyll](http://jekyllrb.com) static site generator.
 It is hosted on [GitHub Pages](http://pages.github.com) and the theme is by [orderedlist](https://github.com/orderedlist).
