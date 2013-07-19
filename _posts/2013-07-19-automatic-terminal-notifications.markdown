@@ -7,9 +7,9 @@ categories: terminal
 
 I spend most of my day staring at either vim or terminal. Often I have to execute some command that 
 takes a few seconds. I quickly jump to my browser to see if there is some update on Hacker News 
-(I have an OCD), only to realize a few minutes later that I was working.
+(I have an OCD), only to realize a few minutes later that I was supposed to be working.
 
-So I thought a healthy nudge (read notification) once this longish running command returns, will be
+So I thought a healthy nudge (read notification) once this longish running command finishes, will be
 a lot of help. So I basically added hooks to my zshrc, to time every command and send a notification
 if it runs longer than a few seconds. Here it is:
 
@@ -39,7 +39,6 @@ function send_notification {
 # Load required functions.
 autoload -Uz add-zsh-hook
 
-# Add hook for calling git-info before each command.
 add-zsh-hook preexec timer_start
 add-zsh-hook precmd timer_stop
 {% endhighlight %}
