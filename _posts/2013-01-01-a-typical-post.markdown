@@ -3,6 +3,7 @@ layout: post
 title:  I would call this a typical post
 date:   2013-01-01 23:42:55
 categories: jekyll update
+published: false
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
