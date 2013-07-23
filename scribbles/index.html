@@ -7,11 +7,13 @@ title: Posts
 <hr />
 
 Tut-tut nothing to look here.
+<br />
+<br />
+<br />
 
-<!--{% for post in site.posts %}-->
-  <!--<section class="post">-->
-    <!--[><time>{{ post.date }}</time><]-->
-    <!--<time>{{ post.date | date_to_string }}</time>-->
-    <!--<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>-->
-  <!--</section>-->
-<!--{% endfor %}-->
+{% for post in site.posts %}
+  <section class="post">
+    <time>{{ post.date | date_to_string }}</time>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  </section>
+{% endfor %}

@@ -3,6 +3,7 @@ layout: post
 title:  Automatic terminal notifications
 date:   2013-07-19
 categories: terminal
+comments: true
 ---
 
 I spend most of my day staring at either vim or terminal. Often I have to execute some command that 
